@@ -294,8 +294,9 @@ nav {
 
 
 .internal-secs img{
-    width: 4.2rem;
+    width: 3rem;
     padding-left: 10px;
+    padding-top: 60px;
 }
 
 .internal-secs h4{
