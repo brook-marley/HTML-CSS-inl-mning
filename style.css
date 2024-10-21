@@ -206,37 +206,35 @@ nav {
 .scroll-down{
     display: flex;
     margin-left: 8rem;
-}
-
-.scroll-down{
     font-weight: 100;
     margin-left: 4rem;
+    gap: 20px;
 }
+ 
 
-.scroll-down h4{
-    margin-bottom: 2rem;
-    margin-left: 40px;
-}
-.scroll-down i{
+.scroll-down p{
     margin-bottom: 4rem;
-    margin-right: -20px;
-    /* margin-top: -20px;
-    padding-top: 2px; */
-    background-color: white;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    border-radius: 50%;
-    color: black;
-
+    margin-left: 76px;
+}
+.scroll-down img{
+    margin-right: -78px;
+    margin-top: -20px;
 }
 
-.dark .scroll-down i{
-    background-color: transparent;
-    color: white;
-    padding-top: 6px;
-} 
+.dark-btn{
+    display: none;
+}
 
+.dark .dark-btn{
+    display: block;
+    margin-right: -78px;
+    margin-top: -30px;
+    width: 30px;
+}
+
+.dark .scroll-down .light-btn{
+    display: none;
+}
 
 
 .row-logos{
